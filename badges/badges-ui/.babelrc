@@ -1,0 +1,16 @@
+{
+  "presets": ["react", "env", "stage-0"],
+  "plugins": [
+    "syntax-async-functions",
+    "syntax-flow",
+    "syntax-jsx",
+    "syntax-object-rest-spread",
+    "syntax-trailing-function-commas",
+    "transform-flow-strip-types",
+    "transform-object-rest-spread",
+    "transform-react-jsx",
+    "transform-regenerator",
+    "transform-runtime",
+    "transform-decorators-legacy"
+  ]
+}

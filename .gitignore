@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/badges/.vs
+/badges/badges-api/bin
+/badges/badges-api/obj/Debug
+/badges/badges-api.Tests/obj/Debug
+/badges/packages
+/badges/badges-ui/node_modules
+/badges/badges-ui/dist
+/badges/badges-api.Tests/obj/Release
+/badges/badges-api/obj/Release
+*.suo
+/.vs
+*.user
+/badges/data-migration/bin
+/badges/data-migration/obj

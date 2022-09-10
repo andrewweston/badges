@@ -1,0 +1,40 @@
+{
+  "extends": "jameslnewell/react",
+  "globals": {
+    "__CONFIG__": true,
+    "$": true,
+    "_": true,
+    "require": true,
+    "React": true,
+    "ReactDOM": true,
+    "PropTypes": true,
+    "window": true,
+    "document": true,
+    "process": true,
+    "console": true,
+    "describe": true,
+    "expect": true,
+    "it": true
+  },
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-handler-names": 0,
+    "import/no-named-as-default": 0,
+    "no-undef": "error",
+    "no-unused-expressions": 0,
+    "no-confusing-arrow": ["error", {"allowParens": true}],
+    "react/sort-prop-types": ["error", {
+      "callbacksLast": false,
+      "ignoreCase": true,
+      "requiredFirst": true
+    }],
+    "keyword-spacing": ["error", {"before": true}],
+    "space-infix-ops": "error",
+    "max-len": ["error", 128],
+    "semi": ["error", "always"],
+    "indent": ["error", 4, {"SwitchCase": 1}],
+    "quotes": ["error", "single"],
+    "object-curly-spacing": ["error", "never"],
+    "callback-return": 0
+  }
+}

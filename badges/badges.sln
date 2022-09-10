@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "badges-api", "badges-api\badges-api.csproj", "{4BBE40DB-DF6A-4D5E-9E44-3EB779C4249B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "badges-ui", "badges-ui\", "{1CE6EF11-2463-48DF-974D-0E53EB3DE9D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55990"
+		Debug.AspNetCompiler.PhysicalPath = "badges-ui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55990\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55990"
+		Release.AspNetCompiler.PhysicalPath = "badges-ui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55990\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55990"
+		SlnRelativePath = "badges-ui\"
+		DefaultWebSiteLanguage = "Visual C#"
+		StartServerOnDebug = "false"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-migration", "data-migration\data-migration.csproj", "{C1F6CBBB-F46A-4461-B054-EAE748ECCECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BBE40DB-DF6A-4D5E-9E44-3EB779C4249B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBE40DB-DF6A-4D5E-9E44-3EB779C4249B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBE40DB-DF6A-4D5E-9E44-3EB779C4249B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBE40DB-DF6A-4D5E-9E44-3EB779C4249B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE6EF11-2463-48DF-974D-0E53EB3DE9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE6EF11-2463-48DF-974D-0E53EB3DE9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE6EF11-2463-48DF-974D-0E53EB3DE9D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE6EF11-2463-48DF-974D-0E53EB3DE9D1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C1F6CBBB-F46A-4461-B054-EAE748ECCECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F6CBBB-F46A-4461-B054-EAE748ECCECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F6CBBB-F46A-4461-B054-EAE748ECCECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F6CBBB-F46A-4461-B054-EAE748ECCECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F80FCC0-26DE-426E-A9FB-7AFAA12936AD}
+	EndGlobalSection
+EndGlobal

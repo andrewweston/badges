@@ -1,0 +1,12 @@
+{
+  "extends": "styleling-config-standard",
+  "syntax": "css",
+  "rules": {
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        ignoreAtRules: ["import", "include"]
+      }
+    ]
+  }
+}
